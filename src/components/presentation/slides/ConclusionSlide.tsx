@@ -41,16 +41,16 @@ export const ConclusionSlide = () => {
       <div className="absolute inset-0 opacity-5 bg-[url('@/assets/background.png')] bg-cover bg-center" />
       
       <div className="relative z-10 space-y-12">
-        <div className="text-center space-y-6">
-          <div className="inline-flex items-center gap-3 bg-primary/10 px-6 py-3 rounded-full">
-            <CheckCircle className="w-6 h-6 text-primary" />
-            <span className="text-lg font-medium text-primary">الخلاصة</span>
+        <div className="text-center space-y-4 sm:space-y-6">
+          <div className="inline-flex items-center gap-2 sm:gap-3 bg-primary/10 px-4 sm:px-6 py-2 sm:py-3 rounded-full">
+            <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
+            <span className="text-sm sm:text-base md:text-lg font-medium text-primary">الخلاصة</span>
           </div>
-          <h2 className="text-5xl font-light">النتائج الرئيسية والتوصيات</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light px-4">النتائج الرئيسية والتوصيات</h2>
           <div className="h-1 w-24 bg-primary mx-auto rounded-full" />
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 max-w-6xl mx-auto">
           {keyTakeaways.map((item, index) => (
             <div
               key={index}

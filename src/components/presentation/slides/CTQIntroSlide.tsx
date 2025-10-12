@@ -27,14 +27,14 @@ const characteristics = [
 export const CTQIntroSlide = () => {
   return (
     <Slide>
-      <div className="space-y-12">
-        <div className="text-center space-y-6">
-          <div className="inline-flex items-center gap-3 bg-primary/10 px-6 py-3 rounded-full">
-            <Target className="w-6 h-6 text-primary" />
-            <span className="text-lg font-medium text-primary">Critical to Quality</span>
+      <div className="space-y-8 sm:space-y-12">
+        <div className="text-center space-y-4 sm:space-y-6">
+          <div className="inline-flex items-center gap-2 sm:gap-3 bg-primary/10 px-4 sm:px-6 py-2 sm:py-3 rounded-full">
+            <Target className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
+            <span className="text-sm sm:text-base md:text-lg font-medium text-primary">Critical to Quality</span>
           </div>
           
-          <h2 className="text-5xl font-light">العوامل الحرجة للجودة</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light px-4">العوامل الحرجة للجودة</h2>
           <div className="h-1 w-24 bg-primary mx-auto rounded-full" />
         </div>
         

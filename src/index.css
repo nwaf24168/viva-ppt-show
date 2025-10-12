@@ -120,14 +120,16 @@ All colors MUST be HSL.
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border touch-manipulation;
   }
 
   body {
     @apply bg-background text-foreground font-heliopolis;
+    -webkit-tap-highlight-color: transparent;
   }
   
   html {
     scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
   }
 }

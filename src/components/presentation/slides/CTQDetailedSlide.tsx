@@ -73,16 +73,16 @@ export const CTQDetailedSlide = () => {
     <Slide>
       <div className="space-y-12">
         <div className="text-center space-y-4">
-          <div className="inline-flex items-center gap-3 bg-primary/10 px-6 py-3 rounded-full">
-            <Target className="w-6 h-6 text-primary" />
-            <span className="text-lg font-medium text-primary">CTQ Analysis</span>
+          <div className="inline-flex items-center gap-2 sm:gap-3 bg-primary/10 px-4 sm:px-6 py-2 sm:py-3 rounded-full">
+            <Target className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
+            <span className="text-sm sm:text-base md:text-lg font-medium text-primary">CTQ Analysis</span>
           </div>
-          <h2 className="text-5xl font-light">العوامل الثمانية الحرجة للجودة</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light px-4">العوامل الثمانية الحرجة للجودة</h2>
           <div className="h-1 w-24 bg-primary mx-auto rounded-full" />
-          <p className="text-xl text-muted-foreground">تم تحديدها بناءً على تحليل شامل لـ 409 شكوى</p>
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground px-4">تم تحديدها بناءً على تحليل شامل لـ 409 شكوى</p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 max-w-7xl mx-auto">
           {ctqFactors.map((factor, index) => (
             <div
               key={index}

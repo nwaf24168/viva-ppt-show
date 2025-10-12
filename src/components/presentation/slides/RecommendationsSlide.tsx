@@ -81,15 +81,15 @@ export const RecommendationsSlide = () => {
     <Slide>
       <div className="space-y-12">
         <div className="text-center space-y-4">
-          <div className="inline-flex items-center gap-3 bg-green-500/10 px-6 py-3 rounded-full">
-            <CheckCircle className="w-6 h-6 text-green-600" />
-            <span className="text-lg font-medium text-green-600">Strategic Action Plan</span>
+          <div className="inline-flex items-center gap-2 sm:gap-3 bg-green-500/10 px-4 sm:px-6 py-2 sm:py-3 rounded-full">
+            <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-green-600" />
+            <span className="text-sm sm:text-base md:text-lg font-medium text-green-600">Strategic Action Plan</span>
           </div>
-          <h2 className="text-5xl font-light">التوصيات وخطة العمل</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light px-4">التوصيات وخطة العمل</h2>
           <div className="h-1 w-24 bg-primary mx-auto rounded-full" />
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 max-w-7xl mx-auto">
           {strategicRecommendations.map((rec, index) => (
             <div
               key={index}
