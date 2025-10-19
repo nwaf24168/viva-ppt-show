@@ -77,10 +77,32 @@ export const ComplaintsDistributionSlide = () => {
           </Card>
         </div>
         
-        <div className="bg-gradient-to-r from-red-500/10 to-orange-500/10 rounded-xl sm:rounded-2xl p-6 sm:p-8 border-2 border-red-500/30 max-w-5xl mx-auto">
-          <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-center leading-relaxed">
-            <span className="font-bold text-red-600">الرؤية الرئيسية:</span> تمثل مشاكل الصيانة ومواعيدها 68.34% من إجمالي الشكاوى (272 شكوى من أصل 398)، مما يشير إلى أن نظام الصيانة يحتاج إلى إعادة هيكلة جذرية وشاملة
-          </p>
+        <div className="space-y-6 sm:space-y-8">
+          <div className="bg-gradient-to-r from-red-500/10 to-orange-500/10 rounded-xl sm:rounded-2xl p-6 sm:p-8 border-2 border-red-500/30 max-w-5xl mx-auto">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-center leading-relaxed">
+              <span className="font-bold text-red-600">الرؤية الرئيسية:</span> تمثل مشاكل الصيانة ومواعيدها 68.34% من إجمالي الشكاوى (272 شكوى من أصل 398)، مما يشير إلى أن نظام الصيانة يحتاج إلى إعادة هيكلة جذرية وشاملة
+            </p>
+          </div>
+
+          <div className="max-w-6xl mx-auto">
+            <h3 className="text-lg sm:text-xl md:text-2xl font-medium text-center mb-4 sm:mb-6">أمثلة واقعية من شكاوى العملاء</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+              {complaintsData.slice(0, 4).map((item, index) => (
+                <div key={index} className="bg-card border-2 border-border rounded-xl p-4 sm:p-6 space-y-3">
+                  <div className="flex items-center gap-2 sm:gap-3">
+                    <div className={`w-3 h-3 sm:w-4 sm:h-4 rounded-full ${item.color}`} />
+                    <h4 className="text-sm sm:text-base md:text-lg font-bold">{item.category}</h4>
+                  </div>
+                  <p className="text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed italic">
+                    {index === 0 && '"التجاوب بشكل افضل في حلول مشاكل الصيانه.. عندي مشكله من وقت الاستلام ولم يتم حلها ع الرغم من زياره اكثر مهندس لي"'}
+                    {index === 1 && '"الالتزام بالمواعيد الخاصه بالصيانه - عندي مكيف فيه تسريب وصوت من ٥ شهور الى الان ما صار عليهم اي شي"'}
+                    {index === 2 && '"للاسف ضعف جودة المواد المستخدمة لاسيما الابواب والالمنيوم. وعند سؤالهم لماذا الجودة متدنية افادوا ان هذه مواصفات شركة الرمز"'}
+                    {index === 3 && '"الاهتمام بالمرافق حقيقة النادي جدا مهمل والادوات فيه سيئة ايضا شفاطات الهواء بالمطبخ ضعيفه"'}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </Slide>

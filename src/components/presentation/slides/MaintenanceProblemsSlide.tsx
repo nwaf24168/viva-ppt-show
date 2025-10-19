@@ -65,7 +65,7 @@ export const MaintenanceProblemsSlide = () => {
           </div>
         </div>
         
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto space-y-6 sm:space-y-8">
           <h3 className="text-xl sm:text-2xl md:text-3xl font-light text-center mb-6 sm:mb-8 px-4">المشاكل الرئيسية المتكررة في شكاوى الصيانة</h3>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
@@ -104,6 +104,22 @@ export const MaintenanceProblemsSlide = () => {
                 </div>
               </div>
             ))}
+          </div>
+
+          <div className="bg-card border-2 border-border rounded-xl sm:rounded-2xl p-6 sm:p-8">
+            <h4 className="text-lg sm:text-xl md:text-2xl font-medium text-center mb-4 sm:mb-6">مثال واقعي من شكاوى العملاء</h4>
+            <div className="space-y-4">
+              <div className="bg-red-500/5 rounded-lg p-4 sm:p-6 border-r-4 border-red-500">
+                <p className="text-sm sm:text-base md:text-lg italic leading-relaxed">
+                  "يوجد طلبات للصيانة بالمشروع تاخذ ايام وشهور ولا تتصلح. لا اعرف هل الخطا من قسم الصيانة او ادارة الملاك لانهم يقولون بلغنا صيانة الرمز وقالوا طيب لكن ما احد يجي يصلح إلا إذا فيه شيء خطير مثل تسرب ماء من السقف على الممرات. نحتاج اهتمام بالسكان اين موضوع الضمان لسنوات"
+                </p>
+              </div>
+              <div className="bg-orange-500/5 rounded-lg p-4 sm:p-6 border-r-4 border-orange-500">
+                <p className="text-sm sm:text-base md:text-lg italic leading-relaxed">
+                  "مشكلة العزل سيئة جدا مع محاولات كثيرة للصيانة لكن بدون جدوى. فريق الصيانة تعبان جدا الصيانة ممكن تكون افضل"
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         
