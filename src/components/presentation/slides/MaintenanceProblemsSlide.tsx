@@ -29,9 +29,9 @@ const maintenanceIssues = [
 ];
 
 const maintenanceStats = [
-  { label: "مشاكل الصيانة العامة", count: 212, percentage: 51.96, color: "bg-red-600" },
-  { label: "مواعيد الصيانة", count: 42, percentage: 10.29, color: "bg-orange-600" },
-  { label: "تعامل فريق الصيانة", count: 7, percentage: 1.72, color: "bg-yellow-600" },
+  { label: "مشاكل الصيانة العامة", count: 230, percentage: 57.79, color: "bg-red-600" },
+  { label: "مواعيد الصيانة", count: 42, percentage: 10.55, color: "bg-orange-600" },
+  { label: "تعامل فريق الصيانة", count: 7, percentage: 1.76, color: "bg-yellow-600" },
 ];
 
 export const MaintenanceProblemsSlide = () => {
@@ -49,7 +49,7 @@ export const MaintenanceProblemsSlide = () => {
         
         <div className="bg-gradient-to-br from-red-500/10 to-orange-500/10 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10 border-2 border-red-500/30 max-w-6xl mx-auto">
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-center leading-relaxed mb-6 sm:mb-8">
-            تمثل مشاكل الصيانة بجميع أشكالها <span className="font-bold text-red-600 text-xl sm:text-2xl md:text-3xl">62.25%</span> من إجمالي الشكاوى، مما يشير إلى وجود <span className="font-bold text-red-600">أزمة حقيقية</span> في نظام الصيانة تتطلب إعادة هيكلة جذرية وشاملة
+            تمثل مشاكل الصيانة بجميع أشكالها <span className="font-bold text-red-600 text-xl sm:text-2xl md:text-3xl">70.10%</span> من إجمالي الشكاوى، مما يشير إلى وجود <span className="font-bold text-red-600">أزمة حقيقية</span> في نظام الصيانة تتطلب إعادة هيكلة جذرية وشاملة
           </p>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-6 sm:mt-8">
