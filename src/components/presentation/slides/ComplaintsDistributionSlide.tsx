@@ -4,12 +4,11 @@ import { Card } from "@/components/ui/card";
 const complaintsData = [
   { category: "مشاكل الصيانة", count: 212, percentage: 51.96, color: "bg-red-500" },
   { category: "مواعيد الصيانة", count: 42, percentage: 10.29, color: "bg-orange-500" },
-  { category: "أخرى", count: 37, percentage: 9.07, color: "bg-yellow-500" },
+  { category: "شركة المرافق والمساحات المشتركة", count: 32, percentage: 7.85, color: "bg-green-500" },
   { category: "ضعف جودة التشطيبات والمواد", count: 32, percentage: 7.84, color: "bg-blue-500" },
   { category: "سوء خدمات المبيعات", count: 25, percentage: 6.13, color: "bg-purple-500" },
-  { category: "إهمال المرافق والخدمات المشتركة", count: 21, percentage: 5.15, color: "bg-green-500" },
   { category: "مشاكل الضمانات والمستندات", count: 18, percentage: 4.41, color: "bg-pink-500" },
-  { category: "المرافق", count: 11, percentage: 2.70, color: "bg-indigo-500" },
+  { category: "أخرى", count: 37, percentage: 9.07, color: "bg-yellow-500" },
 ];
 
 export const ComplaintsDistributionSlide = () => {
@@ -70,7 +69,7 @@ export const ComplaintsDistributionSlide = () => {
                   ))}
                   <tr className="font-bold bg-primary/10">
                     <td className="py-2 sm:py-4 px-2 sm:px-4 text-xs sm:text-base">الإجمالي</td>
-                    <td className="py-2 sm:py-4 px-2 sm:px-4 text-xs sm:text-base">409</td>
+                    <td className="py-2 sm:py-4 px-2 sm:px-4 text-xs sm:text-base">398</td>
                     <td className="py-2 sm:py-4 px-2 sm:px-4 text-xs sm:text-base">100%</td>
                   </tr>
                 </tbody>
@@ -81,7 +80,7 @@ export const ComplaintsDistributionSlide = () => {
         
         <div className="bg-gradient-to-r from-red-500/10 to-orange-500/10 rounded-xl sm:rounded-2xl p-6 sm:p-8 border-2 border-red-500/30 max-w-5xl mx-auto">
           <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-center leading-relaxed">
-            <span className="font-bold text-red-600">الرؤية الرئيسية:</span> تمثل مشاكل الصيانة ومواعيدها 62.25% من إجمالي الشكاوى (254 شكوى من أصل 409)، مما يشير إلى أن نظام الصيانة يحتاج إلى إعادة هيكلة جذرية وشاملة
+            <span className="font-bold text-red-600">الرؤية الرئيسية:</span> تمثل مشاكل الصيانة ومواعيدها 62.25% من إجمالي الشكاوى (254 شكوى من أصل 398)، مما يشير إلى أن نظام الصيانة يحتاج إلى إعادة هيكلة جذرية وشاملة
           </p>
         </div>
       </div>

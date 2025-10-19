@@ -107,12 +107,6 @@ export const MaintenanceProblemsSlide = () => {
           </div>
         </div>
         
-        <div className="bg-red-50 dark:bg-red-950/20 rounded-xl sm:rounded-2xl p-6 sm:p-8 border border-red-200 dark:border-red-900 max-w-5xl mx-auto">
-          <h4 className="text-lg sm:text-xl md:text-2xl font-medium text-center mb-3 sm:mb-4 text-red-700 dark:text-red-400">مشكلة إضافية:</h4>
-          <p className="text-sm sm:text-base md:text-lg lg:text-xl text-center leading-relaxed">
-            <span className="font-bold">عدم الالتزام بالمواعيد:</span> عدم احترام المواعيد المحددة للصيانة أو التأخر الشديد في الحضور والرسائل
-          </p>
-        </div>
       </div>
     </Slide>
   );
