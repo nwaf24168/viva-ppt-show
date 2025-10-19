@@ -61,7 +61,7 @@ const ctqFactors = [
   {
     number: "8",
     icon: TrendingUp,
-    title: "المرافق المشتركة",
+    title: "شركة المرافق والمساحات المشتركة",
     description: "صيانة ونظافة المرافق العامة",
     impact: "63 إشارة",
     severity: "low"
