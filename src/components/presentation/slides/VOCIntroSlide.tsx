@@ -5,17 +5,17 @@ const components = [
   {
     icon: Database,
     title: "جمع البيانات",
-    description: "استخدام قنوات متعددة لجمع آراء العمالء مثل وسائل التواصل الاجتماعي، مقابلات، واستبيانات"
+    description: "استخدام قنوات متعددة لجمع آراء العملاء مثل وسائل التواصل الاجتماعي، مقابلات، واستبيانات"
   },
   {
     icon: TrendingUp,
     title: "ترتيب الأولويات",
-    description: "استخدام أدوات تحليلية لفهم أنماط واتجاهات ملاحظات العمالء"
+    description: "استخدام أدوات تحليلية لفهم أنماط واتجاهات ملاحظات العملاء"
   },
   {
     icon: Target,
     title: "تحديد القضايا",
-    description: "تحديد القضايا وتأثيرها على رضا العمالء"
+    description: "تحديد القضايا وتأثيرها على رضا العملاء"
   },
   {
     icon: MessageCircle,
@@ -25,7 +25,7 @@ const components = [
   {
     icon: Users,
     title: "المراقبة والمتابعة",
-    description: "قياس التحسينات وتأثيرها على رضا العمالء بشكل مستمر"
+    description: "قياس التحسينات وتأثيرها على رضا العملاء بشكل مستمر"
   }
 ];
 
@@ -59,7 +59,7 @@ export const VOCIntroSlide = () => {
             <div className="bg-accent/20 rounded-xl sm:rounded-2xl p-6 sm:p-8 text-right space-y-2 sm:space-y-3">
               <h3 className="text-lg sm:text-xl font-medium text-primary">المنهجية</h3>
               <p className="text-sm sm:text-base md:text-lg leading-relaxed">
-                تحويل آراء العمالء وملاحظاتهم إلى معلومات مفيدة وقابلة للتنفيذ
+                تحويل آراء العملاء وملاحظاتهم إلى معلومات مفيدة وقابلة للتنفيذ
               </p>
             </div>
           </div>

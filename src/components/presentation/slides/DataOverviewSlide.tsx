@@ -56,9 +56,12 @@ export const DataOverviewSlide = () => {
               </div>
               مصدر البيانات
             </h3>
-            <p className="text-sm sm:text-base md:text-lg leading-relaxed text-muted-foreground">
-              ملف VOC_Dashboard.xlsx يحتوي على شكاوى العملاء المجمعة من قنوات متعددة ومصنفة حسب نوع المشكلة
-            </p>
+            <ul className="text-sm sm:text-base md:text-lg leading-relaxed text-muted-foreground space-y-2">
+              <li>١- مكالمات خدمة العملاء</li>
+              <li>٢- استبيان NPS</li>
+              <li>٣- مكالمات الجودة للصيانة</li>
+              <li>٤- مكالمات الجودة عن التسليم</li>
+            </ul>
           </div>
           
           <div className="bg-card rounded-xl sm:rounded-2xl p-6 sm:p-8 border border-border">
