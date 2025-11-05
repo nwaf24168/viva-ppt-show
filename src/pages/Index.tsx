@@ -11,8 +11,11 @@ import { ComplaintsDistributionSlide } from "@/components/presentation/slides/Co
 import { MaintenanceProblemsSlide } from "@/components/presentation/slides/MaintenanceProblemsSlide";
 import { KeywordsAnalysisSlide } from "@/components/presentation/slides/KeywordsAnalysisSlide";
 import { CTQDetailedSlide } from "@/components/presentation/slides/CTQDetailedSlide";
+import { ProjectsIntroSlide } from "@/components/presentation/slides/ProjectsIntroSlide";
+import { ProjectDetailsSlide } from "@/components/presentation/slides/ProjectDetailsSlide";
 import { RecommendationsSlide } from "@/components/presentation/slides/RecommendationsSlide";
 import { ConclusionSlide } from "@/components/presentation/slides/ConclusionSlide";
+import { projectsData } from "@/utils/projectsData";
 
 const Index = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -22,20 +25,27 @@ const Index = () => {
   // Minimum swipe distance (in px)
   const minSwipeDistance = 50;
   
+  // Generate project slides dynamically
+  const projectSlides = projectsData.map((_, index) => (
+    <ProjectDetailsSlide key={`project-${index}`} projectIndex={index} />
+  ));
+
   const slides = [
-    <CoverSlide />,
-    <TableOfContentsSlide />,
-    <VOCIntroSlide />,
-    <VOCImportanceSlide />,
-    <CTQIntroSlide />,
-    <VOCToCTQSlide />,
-    <DataOverviewSlide />,
-    <ComplaintsDistributionSlide />,
-    <MaintenanceProblemsSlide />,
-    <KeywordsAnalysisSlide />,
-    <CTQDetailedSlide />,
-    <RecommendationsSlide />,
-    <ConclusionSlide />,
+    <CoverSlide key="cover" />,
+    <TableOfContentsSlide key="toc" />,
+    <VOCIntroSlide key="voc-intro" />,
+    <VOCImportanceSlide key="voc-importance" />,
+    <CTQIntroSlide key="ctq-intro" />,
+    <VOCToCTQSlide key="voc-to-ctq" />,
+    <DataOverviewSlide key="data-overview" />,
+    <ComplaintsDistributionSlide key="complaints-dist" />,
+    <MaintenanceProblemsSlide key="maintenance" />,
+    <KeywordsAnalysisSlide key="keywords" />,
+    <CTQDetailedSlide key="ctq-detailed" />,
+    <ProjectsIntroSlide key="projects-intro" />,
+    ...projectSlides,
+    <RecommendationsSlide key="recommendations" />,
+    <ConclusionSlide key="conclusion" />,
   ];
 
   const handleNext = () => {
