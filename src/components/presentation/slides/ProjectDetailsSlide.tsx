@@ -14,11 +14,15 @@ export const ProjectDetailsSlide = ({ projectIndex }: ProjectDetailsSlideProp) =
   return (
     <Slide>
       <div className="space-y-6 animate-fade-in">
-        <div className="text-center space-y-2">
-          <div className="text-sm text-muted-foreground">المشروع رقم {project.slideNumber}</div>
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
-            {project.location}
+        <div className="text-center space-y-3">
+          <div className="text-base text-muted-foreground">المشروع رقم {project.slideNumber}</div>
+          <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
+            {project.projectName}
           </h2>
+          <div className="flex flex-col items-center gap-2">
+            <p className="text-xl md:text-2xl text-foreground font-medium">{project.projectType}</p>
+            <p className="text-lg md:text-xl text-muted-foreground">{project.location}</p>
+          </div>
           <div className="h-1 w-24 mx-auto bg-gradient-to-r from-primary to-primary/60 rounded-full" />
         </div>
 
