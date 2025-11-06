@@ -16,7 +16,7 @@ export const ProjectDetailsSlide = ({ projectIndex }: ProjectDetailsSlideProp) =
       <div className="space-y-6 animate-fade-in">
         <div className="text-center space-y-3">
           <div className="text-base text-muted-foreground">المشروع رقم {project.slideNumber}</div>
-          <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
+          <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent break-words px-4">
             {project.projectName}
           </h2>
           <div className="flex flex-col items-center gap-2">
@@ -83,11 +83,11 @@ export const ProjectDetailsSlide = ({ projectIndex }: ProjectDetailsSlideProp) =
               <div className="text-center">
                 <div className="text-3xl font-bold text-primary">
                   {project.maintenanceRequests !== "غير محدد" && project.totalUnits > 0
-                    ? ((parseInt(project.maintenanceRequests) / project.totalUnits) * 100).toFixed(1)
-                    : "0"}%
+                    ? (parseInt(project.maintenanceRequests) / project.totalUnits).toFixed(2)
+                    : "0"}
                 </div>
                 <div className="text-sm text-muted-foreground mt-1">
-                  نسبة طلبات الصيانة إلى الوحدات
+                  متوسط عدد الصيانة لكل وحدة
                 </div>
               </div>
             </div>
