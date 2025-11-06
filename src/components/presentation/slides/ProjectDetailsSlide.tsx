@@ -16,7 +16,7 @@ export const ProjectDetailsSlide = ({ projectIndex }: ProjectDetailsSlideProp) =
       <div className="space-y-6 animate-fade-in">
         <div className="text-center space-y-3">
           <div className="text-base text-muted-foreground">المشروع رقم {project.slideNumber}</div>
-          <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent break-words px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-primary break-words px-4 leading-relaxed">
             {project.projectName}
           </h2>
           <div className="flex flex-col items-center gap-2">
