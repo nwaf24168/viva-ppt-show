@@ -46,10 +46,17 @@ export const ProjectDetailsSlide = ({ projectIndex }: ProjectDetailsSlideProp) =
                 <span className="font-semibold">{project.maintenanceRequests}</span>
               </div>
               
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center pb-2 border-b border-border">
                 <span className="text-muted-foreground">الضمانات السارية</span>
                 <span className="font-semibold text-sm">{project.activeWarranties}</span>
               </div>
+
+              {project.avgMaintenanceTime && (
+                <div className="flex justify-between items-center">
+                  <span className="text-muted-foreground">متوسط مدة التنفيذ</span>
+                  <span className="font-semibold text-sm text-primary">{project.avgMaintenanceTime}</span>
+                </div>
+              )}
             </div>
           </Card>
 
