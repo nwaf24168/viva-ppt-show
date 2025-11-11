@@ -43,7 +43,8 @@ export const projectsData: Project[] = [
     totalUnits: 96,
     maintenanceRequests: "17",
     activeWarranties: "العزل والهيكل الإنشائي",
-    mainProblems: "تسريب من الاسقف (5)، تسريبات (سباكة) (4)، دهانات (2)"
+    mainProblems: "تسريب من الاسقف (5)، تسريبات (سباكة) (4)، دهانات (2)",
+    avgMaintenanceTime: "32 يوم و 7 ساعة و 30 دقيقة"
   },
   {
     slideNumber: 4,
@@ -55,7 +56,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "5",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "السباكة (2)، تسريبات (سباكة) (2)، تسريب من الاسقف (1)",
-    avgMaintenanceTime: "17 يوم و 14 ساعة و 39 دقيقة"
+    avgMaintenanceTime: "32 يوم و 5 ساعة و 52 دقيقة"
   },
   {
     slideNumber: 5,
@@ -67,7 +68,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "69",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "سباكة (15)، تسريبات (سباكة) (12)، تسريب من الاسقف (10)",
-    avgMaintenanceTime: "8 يوم و 22 ساعة و 54 دقيقة"
+    avgMaintenanceTime: "24 يوم و 12 ساعة و 46 دقيقة"
   },
   {
     slideNumber: 6,
@@ -79,7 +80,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "11",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "تكييف (4)، تسريب من الاسقف (4)، المنيوم (2)",
-    avgMaintenanceTime: "3 يوم و 21 ساعة و 56 دقيقة"
+    avgMaintenanceTime: "12 يوم و 23 ساعة و 54 دقيقة"
   },
   {
     slideNumber: 7,
@@ -90,7 +91,8 @@ export const projectsData: Project[] = [
     totalUnits: 24,
     maintenanceRequests: "11",
     activeWarranties: "العزل والهيكل الإنشائي",
-    mainProblems: "تسريبات (سباكة) (4)، تسريب من الاسقف (2)، المنيوم (2)"
+    mainProblems: "تسريبات (سباكة) (4)، تسريب من الاسقف (2)، المنيوم (2)",
+    avgMaintenanceTime: "19 يوم و 23 ساعة و 17 دقيقة"
   },
   {
     slideNumber: 8,
@@ -102,7 +104,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "16",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "تسريب من الاسقف (5)، بلاط (5)، التماس كهربائي (2)",
-    avgMaintenanceTime: "36 يوم و 20 ساعة و 36 دقيقة"
+    avgMaintenanceTime: "40 يوم و 6 ساعة و 1 دقيقة"
   },
   {
     slideNumber: 9,
@@ -114,7 +116,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "230",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "سباكة (40)، كهرباء (32)، تكييف (32)",
-    avgMaintenanceTime: "4 يوم و 4 ساعة و 56 دقيقة"
+    avgMaintenanceTime: "18 يوم و 22 ساعة و 32 دقيقة"
   },
   {
     slideNumber: 10,
@@ -126,7 +128,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "115",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "تسريبات (سباكة) (17)، بلاط (17)، تسريب من الاسقف (17)",
-    avgMaintenanceTime: "12 يوم و 2 ساعة و 59 دقيقة"
+    avgMaintenanceTime: "18 يوم و 6 ساعة و 49 دقيقة"
   },
   {
     slideNumber: 11,
@@ -138,7 +140,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "101",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "تسريب من الاسقف (23)، دهانات (17)، سمارت هوم (12)",
-    avgMaintenanceTime: "54 يوم و 17 ساعة و 22 دقيقة"
+    avgMaintenanceTime: "61 يوم و 16 ساعة و 51 دقيقة"
   },
   {
     slideNumber: 12,
@@ -150,7 +152,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "35",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "تسريب من الاسقف (13)، تسريبات (سباكة) (5)، دهانات (4)",
-    avgMaintenanceTime: "16 يوم و 7 ساعة و 38 دقيقة"
+    avgMaintenanceTime: "27 يوم و 19 ساعة و 0 دقيقة"
   },
   {
     slideNumber: 13,
@@ -161,7 +163,8 @@ export const projectsData: Project[] = [
     totalUnits: 6,
     maintenanceRequests: "31",
     activeWarranties: "العزل والهيكل الإنشائي",
-    mainProblems: "تسريب من الاسقف (10)، المنيوم (5)، دهانات (5)"
+    mainProblems: "تسريب من الاسقف (10)، المنيوم (5)، دهانات (5)",
+    avgMaintenanceTime: "40 يوم و 14 ساعة و 52 دقيقة"
   },
   {
     slideNumber: 14,
@@ -173,7 +176,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "41",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "كهرباء (9)، سباكة (7)، تسريب من الاسقف (6)",
-    avgMaintenanceTime: "2 يوم و 19 ساعة و 29 دقيقة"
+    avgMaintenanceTime: "19 يوم و 5 ساعة و 27 دقيقة"
   },
   {
     slideNumber: 15,
@@ -185,7 +188,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "111",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "تسريبات (سباكة) (20)، كهرباء (18)، دهانات (16)",
-    avgMaintenanceTime: "9 يوم و 21 ساعة و 31 دقيقة"
+    avgMaintenanceTime: "28 يوم و 21 ساعة و 57 دقيقة"
   },
   {
     slideNumber: 16,
@@ -197,7 +200,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "92",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "سباكة (33)، تسريبات (سباكة) (16)، تسريب من الاسقف (9)",
-    avgMaintenanceTime: "36 يوم و 13 ساعة و 9 دقيقة"
+    avgMaintenanceTime: "20 يوم و 6 ساعة و 4 دقيقة"
   },
   {
     slideNumber: 17,
@@ -208,7 +211,8 @@ export const projectsData: Project[] = [
     totalUnits: 9,
     maintenanceRequests: "34",
     activeWarranties: "العزل والهيكل الإنشائي",
-    mainProblems: "سباكة (12)، تسريب من الاسقف (8)، تسريبات (سباكة) (3)"
+    mainProblems: "سباكة (12)، تسريب من الاسقف (8)، تسريبات (سباكة) (3)",
+    avgMaintenanceTime: "13 يوم و 17 ساعة و 13 دقيقة"
   },
   {
     slideNumber: 18,
@@ -220,7 +224,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "77",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "دهانات (16)، سباكة (13)، تسريبات (سباكة) (12)",
-    avgMaintenanceTime: "20 يوم و 17 ساعة و 43 دقيقة"
+    avgMaintenanceTime: "21 يوم و 20 ساعة و 23 دقيقة"
   },
   {
     slideNumber: 19,
@@ -231,7 +235,8 @@ export const projectsData: Project[] = [
     totalUnits: 11,
     maintenanceRequests: "111",
     activeWarranties: "الضمان الشامل",
-    mainProblems: "تكييف (37)، المنيوم (21)، كهرباء (21)"
+    mainProblems: "تكييف (37)، المنيوم (21)، كهرباء (21)",
+    avgMaintenanceTime: "11 يوم و 17 ساعة و 20 دقيقة"
   },
   {
     slideNumber: 20,
@@ -243,7 +248,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "487",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "سباكة (91)، دهانات (85)، كهرباء (64)",
-    avgMaintenanceTime: "34 يوم و 22 ساعة و 26 دقيقة"
+    avgMaintenanceTime: "24 يوم و 5 ساعة و 56 دقيقة"
   },
   {
     slideNumber: 21,
@@ -254,7 +259,8 @@ export const projectsData: Project[] = [
     totalUnits: 124,
     maintenanceRequests: "242",
     activeWarranties: "الضمان الشامل",
-    mainProblems: "سباكة (60)، كهرباء (47)، دهانات (41)"
+    mainProblems: "سباكة (60)، كهرباء (47)، دهانات (41)",
+    avgMaintenanceTime: "20 يوم و 5 ساعة و 1 دقيقة"
   },
   {
     slideNumber: 22,
@@ -266,7 +272,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "214",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "بلاط (41)، سباكة (40)، تسريبات (سباكة) (27)",
-    avgMaintenanceTime: "39 يوم و 13 ساعة و 34 دقيقة"
+    avgMaintenanceTime: "41 يوم و 6 ساعة و 12 دقيقة"
   },
   {
     slideNumber: 23,
@@ -278,7 +284,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "930",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "دهانات (167)، سباكة (138)، تكييف (123)",
-    avgMaintenanceTime: "54 يوم و 9 ساعة و 22 دقيقة"
+    avgMaintenanceTime: "26 يوم و 18 ساعة و 44 دقيقة"
   },
   {
     slideNumber: 24,
@@ -290,7 +296,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "930",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "دهانات (167)، سباكة (138)، تكييف (123)",
-    avgMaintenanceTime: "54 يوم و 9 ساعة و 22 دقيقة"
+    avgMaintenanceTime: "26 يوم و 18 ساعة و 44 دقيقة"
   },
   {
     slideNumber: 25,
@@ -302,7 +308,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "503",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "سباكة (149)، دهانات (96)، كهرباء (42)",
-    avgMaintenanceTime: "38 يوم و 8 ساعة و 3 دقيقة"
+    avgMaintenanceTime: "23 يوم و 13 ساعة و 21 دقيقة"
   },
   {
     slideNumber: 26,
@@ -314,7 +320,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "503",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "سباكة (149)، دهانات (96)، كهرباء (42)",
-    avgMaintenanceTime: "38 يوم و 8 ساعة و 3 دقيقة"
+    avgMaintenanceTime: "23 يوم و 13 ساعة و 21 دقيقة"
   },
   {
     slideNumber: 27,
@@ -326,7 +332,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "863",
     activeWarranties: "الضمان الشامل",
     mainProblems: "سباكة (292)، كهرباء (145)، دهانات (126)",
-    avgMaintenanceTime: "38 يوم و 8 ساعة و 3 دقيقة"
+    avgMaintenanceTime: "12 يوم و 21 ساعة و 2 دقيقة"
   },
   {
     slideNumber: 28,
@@ -338,7 +344,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "863",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "سباكة (292)، كهرباء (145)، دهانات (126)",
-    avgMaintenanceTime: "38 يوم و 8 ساعة و 3 دقيقة"
+    avgMaintenanceTime: "12 يوم و 21 ساعة و 2 دقيقة"
   },
   {
     slideNumber: 29,
@@ -350,7 +356,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "400",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "سباكة (113)، كهرباء (51)، دهانات (50)",
-    avgMaintenanceTime: "40 يوم و 21 ساعة و 39 دقيقة"
+    avgMaintenanceTime: "22 يوم و 13 ساعة و 46 دقيقة"
   },
   {
     slideNumber: 30,
@@ -361,7 +367,8 @@ export const projectsData: Project[] = [
     totalUnits: 71,
     maintenanceRequests: "269",
     activeWarranties: "الضمان الشامل",
-    mainProblems: "سباكة (75)، تكييف (45)، سمارت هوم (31)"
+    mainProblems: "سباكة (75)، تكييف (45)، سمارت هوم (31)",
+    avgMaintenanceTime: "12 يوم و 0 ساعة و 37 دقيقة"
   },
   {
     slideNumber: 31,
@@ -372,7 +379,8 @@ export const projectsData: Project[] = [
     totalUnits: 32,
     maintenanceRequests: "472",
     activeWarranties: "الضمان الشامل",
-    mainProblems: "سباكة (98)، كهرباء (80)، المنيوم (65)"
+    mainProblems: "سباكة (98)، كهرباء (80)، المنيوم (65)",
+    avgMaintenanceTime: "12 يوم و 19 ساعة و 1 دقيقة"
   },
   {
     slideNumber: 32,
@@ -384,7 +392,7 @@ export const projectsData: Project[] = [
     maintenanceRequests: "671",
     activeWarranties: "العزل والهيكل الإنشائي",
     mainProblems: "سباكة (118)، دهانات (111)، كهرباء (91)",
-    avgMaintenanceTime: "4 يوم و 8 ساعة و 1 دقيقة"
+    avgMaintenanceTime: "24 يوم و 9 ساعة و 43 دقيقة"
   },
   {
     slideNumber: 33,
@@ -395,7 +403,8 @@ export const projectsData: Project[] = [
     totalUnits: 174,
     maintenanceRequests: "112",
     activeWarranties: "الضمان الشامل",
-    mainProblems: "دهانات (20)، سباكة (18)، بلاط (17)"
+    mainProblems: "دهانات (20)، سباكة (18)، بلاط (17)",
+    avgMaintenanceTime: "15 يوم و 22 ساعة و 25 دقيقة"
   },
   {
     slideNumber: 34,
@@ -516,7 +525,8 @@ export const projectsData: Project[] = [
     totalUnits: 9,
     maintenanceRequests: "27",
     activeWarranties: "الضمان الشامل",
-    mainProblems: "تسريبات (سباكة) (6)، سباكة (6)، بلاط (4)"
+    mainProblems: "تسريبات (سباكة) (6)، سباكة (6)، بلاط (4)",
+    avgMaintenanceTime: "14 يوم و 17 ساعة و 11 دقيقة"
   },
   {
     slideNumber: 45,
